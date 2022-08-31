@@ -1,4 +1,4 @@
-# NodeJS Controlador de viviendas y contratos de viviendas API REST - MySQL, Express.
+# NodeJS Controller of housing and housing contracts API REST - MySQL, Express.
 
 Simple Crud for managing and administering homes with a database and all the services of the CRUD concept.
 
