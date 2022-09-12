@@ -30,6 +30,12 @@ Propietarios.findById = (id, result) => {
             return;
         }
 
+        if(res.length){
+          console.log('found propietario: ', res[0]);
+          result(null, res[0]);
+          return;
+        }
+
         result({ kind: 'not_found'}, null);
     });
 };
